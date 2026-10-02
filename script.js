@@ -68,13 +68,6 @@ const categoryLabels = {
   Drinks: "Bebidas",
   Desserts: "Sobremesas",
 };
-const normalizeSearch = (s) =>
-  typeof s.normalize === "function"
-    ? s
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .toLowerCase()
-    : s.toLowerCase();
 const categories = [
   "All",
   "Buckets",
@@ -89,8 +82,6 @@ const state = {
   offers: false,
   favoritesOnly: false,
   all: false,
-  sort: "popular",
-  maxPrice: 50,
   cart: {},
   favorites: [],
   coupon: false,
@@ -154,7 +145,7 @@ function productPrice(p) {
   return `<span class="price">${p.originalPrice > p.price ? `<del class="previous-price" aria-label="Preço anterior">${money(p.originalPrice)}</del>` : ""}<span>${money(p.price)}</span></span>`;
 }
 function card(p, i) {
-  return `<article class="product ${p.realProduct ? "real-product" : ""}" style="--delay:${(i % 3) * 45}ms">${productBadge(p) ? `<span class="badge ${p.badgeTone === "yellow" ? "yellow" : ""}">${productBadge(p)}</span>` : ""}<button class="favorite ${state.favorites.includes(i) ? "saved" : ""}" onclick="favorite(${i})" aria-label="Favoritar ${p.name}" aria-pressed="${state.favorites.includes(i)}">${icon("heart")}</button><button class="product-image ${p.duo ? "duo" : ""} ${["Drinks", "Desserts"].includes(p.category) ? "tall-product" : ""}" onclick="productDetails(${i})" aria-label="Detalhes de ${p.name}">${image(p)}${p.duo ? image(p) : ""}</button><button class="product-title" onclick="productDetails(${i})"><h2>${p.name}</h2></button><p>${p.desc}</p><div class="rating">${p.rating ? icon("star") + "<span>" + p.rating + "</span>" : ""}</div><div class="product-bottom">${productPrice(p)}<button class="add" onclick="add(${i})" aria-label="Adicionar ${p.name}">${icon("plus")}</button></div></article>`;
+  return `<article class="product ${p.realProduct ? "real-product" : ""}" style="--delay:${(i % 3) * 45}ms">${productBadge(p) ? `<span class="badge ${p.badgeTone === "yellow" ? "yellow" : ""}">${productBadge(p)}</span>` : ""}<button class="favorite ${state.favorites.includes(i) ? "saved" : ""}" onclick="favorite(${i})" aria-label="Favoritar ${p.name}" aria-pressed="${state.favorites.includes(i)}">${icon("heart")}</button><button class="product-image ${p.duo ? "duo" : ""} ${["Drinks", "Desserts"].includes(p.category) ? "tall-product" : ""}" onclick="productDetails(${i})" aria-label="Detalhes de ${p.name}">${image(p)}${p.duo ? image(p) : ""}</button><button class="product-title" onclick="productDetails(${i})"><h2>${p.name}</h2></button><p>${p.desc}</p><div class="rating" title="Avaliações ilustrativas desta cópia">${p.rating ? icon("star") + "<span>" + p.rating + "</span>" : ""}</div><div class="product-bottom">${productPrice(p)}<button class="add" onclick="add(${i})" aria-label="Adicionar ${p.name}">${icon("plus")}</button></div></article>`;
 }
 function render() {
   const categoryScroll = $(".categories").scrollLeft;
@@ -166,36 +157,12 @@ function render() {
     )
     .join("");
   $(".categories").scrollLeft = categoryScroll;
-  const query = normalizeSearch($("#searchInput").value.trim()),
-    filtered =
-      query ||
-      state.category !== "All" ||
-      state.offers ||
-      state.favoritesOnly ||
-      state.all ||
-      state.sort !== "popular" ||
-      state.maxPrice < 50;
-  let result = products
-    .map((p, i) => Object.assign({}, p, { i }))
-    .filter(
-      (p) =>
-        (state.category === "All" || p.category === state.category) &&
-        (!state.offers || p.offer) &&
-        (!state.favoritesOnly || state.favorites.includes(p.i)) &&
-        p.price <= state.maxPrice &&
-        normalizeSearch(
-          p.name + " " + p.desc + " " + categoryLabels[p.category] + " " + englishText(p.name + " " + p.desc + " " + categoryLabels[p.category]) + " " + spanishText(englishText(p.name + " " + p.desc + " " + categoryLabels[p.category])),
-        ).includes(query),
-    );
-  if (state.sort === "low") result.sort((a, b) => a.price - b.price);
-  if (state.sort === "high") result.sort((a, b) => b.price - a.price);
-  if (state.sort === "rating")
-    result.sort(
-      (a, b) =>
-        (parseFloat(b.rating.replace(",", ".")) || 0) -
-        (parseFloat(a.rating.replace(",", ".")) || 0),
-    );
-  $("#products>.products").innerHTML = (filtered ? result : result.slice(0, 3))
+  const catalogView = state.category !== "All" || state.offers || state.favoritesOnly || state.all;
+  const result = products.map((p, i) => Object.assign({}, p, { i })).filter((p) =>
+    (state.category === "All" || p.category === state.category) &&
+    (!state.offers || p.offer) && (!state.favoritesOnly || state.favorites.includes(p.i))
+  );
+  $("#products>.products").innerHTML = (catalogView ? result : result.slice(0, 3))
     .map((p) => card(p, p.i))
     .join("");
   $(".empty").hidden = !!result.length;
@@ -205,23 +172,16 @@ function render() {
       ? "Ofertas especiais"
       : state.category !== "All"
         ? categoryLabels[state.category]
-        : query
-          ? "Resultados da busca"
-          : filtered
-            ? "Nosso cardápio"
+        : catalogView
+            ? "Cardápio"
             : "Combos populares";
-  $("#viewAll").hidden = !!filtered;
-  $("#resultInfo").textContent = filtered
+  $("#viewAll").hidden = !!catalogView;
+  $("#resultInfo").textContent = catalogView
     ? `${result.length} ${result.length === 1 ? "opção deliciosa" : "opções deliciosas"}`
     : "";
-  $("#clearSearch").hidden = !query;
-  $("#filterButton").classList.toggle(
-    "applied",
-    state.sort !== "popular" || state.maxPrice < 50 || state.favoritesOnly,
-  );
-  $("#moreMenu").hidden = !!filtered;
-  $("#offer").hidden = !!filtered;
-  if (!filtered)
+  $("#moreMenu").hidden = !!catalogView;
+  $("#offer").hidden = !!catalogView;
+  if (!catalogView)
     $("#moreMenu").innerHTML =
       `<div class="section-heading"><div><span class="eyebrow">COMPLETE SEU PEDIDO</span><h2>Um pouco mais de felicidade</h2></div><button onclick="viewMenu()">Ver todos ${icon("arrow")}</button></div><div class="products">${[3, 4, 6].map((i) => card(products[i], i)).join("")}</div>`;
   updateBag();
@@ -307,7 +267,7 @@ function panel(title, body, type = "default") {
   $("#panel").dataset.type = type;
   if (!$("#panel").open) {
     const d = $("#panel");
-    if (typeof d.showModal === "function") d.showModal();
+    if (typeof d.showModal === "function") { d.showModal(); d.focus({preventScroll:true}); }
     else {
       d.setAttribute("open", "");
       d.classList.add("fallback-dialog");
@@ -315,7 +275,7 @@ function panel(title, body, type = "default") {
       shade.className = "dialog-fallback-shade";
       shade.onclick = closePanel;
       document.body.appendChild(shade);
-      d.querySelector("button").focus();
+      d.focus({preventScroll:true});
     }
   }
   document.body.classList.add("panel-open");
@@ -378,7 +338,7 @@ function productDetails(i) {
   const p = products[i];
   panel(
     p.name,
-    `<div class="detail-image ${p.realProduct ? "real-product-image" : ""} ${p.category === "Desserts" ? "detail-dessert" : ""}">${image(p)}</div><span class="eyebrow">${categoryLabels[p.category]}${productBadge(p) ? " · " + productBadge(p) : ""}</span><p class="detail-copy">${p.detail}</p>${p.offer ? `<div class="detail-price">${productPrice(p)}</div>` : ""}${p.rating ? `<div class="detail-rating">${icon("star")} ${p.rating}</div>` : ""}${p.sizes ? `<fieldset class="sizes"><legend>Escolha o tamanho</legend><label><input type="radio" name="size" value="regular" checked>${p.regularLabel || "Tradicional"} <span>${p.realProduct ? money(p.price) : "400 ml"}</span></label><label><input type="radio" name="size" value="large">${p.largeLabel || "Grande"} <span>${p.realProduct ? money(p.largePrice) : "600 ml · +" + money(0.8)}</span></label></fieldset>` : ""}<div class="detail-quantity"><label for="detailQty">Quantidade</label><div class="quantity"><button onclick="detailQuantidade(-1)" aria-label="Diminuir quantidade">${icon("minus")}</button><input id="detailQty" aria-label="Quantidade do produto" type="number" min="1" max="20" value="1" oninput="updateDetailTotal()"><button onclick="detailQuantidade(1)" aria-label="Aumentar quantidade">${icon("plus")}</button></div></div><details><summary>Ingredientes e alérgenos ${icon("chevron")}</summary><p>${p.allergens}. As informações do cardápio são ilustrativas; confirme os ingredientes com o restaurante.</p></details><button class="primary" onclick="addDetails(${i})">${icon("plus")} Adicionar à sacola <span>${money(p.price)}</span></button>`,
+    `<div class="detail-image ${p.realProduct ? "real-product-image" : ""} ${p.category === "Desserts" ? "detail-dessert" : ""}">${image(p)}</div><span class="eyebrow">${categoryLabels[p.category]}${productBadge(p) ? " · " + productBadge(p) : ""}</span><p class="detail-copy">${p.detail}</p>${p.offer ? `<div class="detail-price">${productPrice(p)}</div>` : ""}${p.rating ? `<div class="detail-rating" title="Avaliações ilustrativas desta cópia">${icon("star")} ${p.rating}</div>` : ""}${p.sizes ? `<fieldset class="sizes"><legend>Escolha o tamanho</legend><label><input type="radio" name="size" value="regular" checked>${p.regularLabel || "Tradicional"} <span>${p.realProduct ? money(p.price) : "400 ml"}</span></label><label><input type="radio" name="size" value="large">${p.largeLabel || "Grande"} <span>${p.realProduct ? money(p.largePrice) : "600 ml · +" + money(0.8)}</span></label></fieldset>` : ""}<div class="detail-quantity"><label for="detailQty">Quantidade</label><div class="quantity"><button onclick="detailQuantidade(-1)" aria-label="Diminuir quantidade">${icon("minus")}</button><input id="detailQty" aria-label="Quantidade do produto" type="number" min="1" max="20" value="1" oninput="updateDetailTotal()"><button onclick="detailQuantidade(1)" aria-label="Aumentar quantidade">${icon("plus")}</button></div></div><details><summary>Ingredientes e alérgenos ${icon("chevron")}</summary><p>${p.allergens}. As informações do cardápio são ilustrativas; confirme os ingredientes com o restaurante.</p></details><button class="primary" onclick="addDetails(${i})">${icon("plus")} Adicionar à sacola <span>${money(p.price)}</span></button>`,
     "product",
   );
   if (p.sizes)
@@ -423,10 +383,7 @@ function viewMenu() {
     offers: false,
     favoritesOnly: false,
     all: true,
-    sort: "popular",
-    maxPrice: 50,
   });
-  $("#searchInput").value = "";
   render();
   setNav("Menu");
   scrollMenu();
@@ -438,7 +395,6 @@ function showOfertas() {
     favoritesOnly: false,
     all: true,
   });
-  $("#searchInput").value = "";
   render();
   setNav("Ofertas");
   scrollMenu();
@@ -450,7 +406,6 @@ function showFavoritos() {
     favoritesOnly: true,
     all: true,
   });
-  $("#searchInput").value = "";
   render();
   setNav("Perfil");
   scrollMenu();
@@ -461,33 +416,10 @@ function home() {
     offers: false,
     favoritesOnly: false,
     all: false,
-    sort: "popular",
-    maxPrice: 50,
   });
-  $("#searchInput").value = "";
   render();
   setNav("Início");
   scrollTo({ top: 0, behavior: "smooth" });
-}
-function openFilters() {
-  panel(
-    "Encontre seu favorito",
-    `<form class="filter-form" onsubmit="applyFilters(event)"><label class="field-label" for="sort">Ordenar por</label><select id="sort"><option value="popular">Recomendados</option><option value="low">Menor preço</option><option value="high">Maior preço</option><option value="rating">Melhor avaliação</option></select><label class="field-label" for="maxPrice">Preço máximo <output id="priceOutput">${money(state.maxPrice)}</output></label><input id="maxPrice" type="range" min="0" max="50" step="0.5" value="${state.maxPrice}" oninput="document.querySelector('#priceOutput').textContent=money(Number(this.value))"><label class="check-row"><input type="checkbox" id="onlyFavoritos" ${state.favoritesOnly ? "checked" : ""}>Somente meus favoritos ${icon("heart")}</label><button class="primary" type="submit">Ver resultados ${icon("arrow")}</button><button class="continue" type="button" onclick="closePanel();viewMenu()">Limpar filtros</button></form>`,
-    "filters",
-  );
-  $("#sort").value = state.sort;
-}
-function applyFilters(e) {
-  e.preventDefault();
-  Object.assign(state, {
-    sort: $("#sort").value,
-    maxPrice: Number($("#maxPrice").value),
-    favoritesOnly: $("#onlyFavoritos").checked,
-    all: true,
-  });
-  closePanel();
-  render();
-  scrollMenu();
 }
 function profile() {
   panel(
@@ -503,10 +435,22 @@ function savePerfil(e) {
   render();
   closePanel();
 }
+/* Automatic five-second rotation, with manual mouse/touch swipes resetting the timer. */
+let heroSlideTimer;
+function scheduleHeroSlide() {
+  clearTimeout(heroSlideTimer);
+  if (document.hidden) return;
+  heroSlideTimer = setTimeout(() => {
+    if (!$("#panel").open && !heroDrag) showSlide((heroSlideIndex + 1) % 4);
+    else scheduleHeroSlide();
+  }, 5000);
+}
+document.addEventListener("visibilitychange", scheduleHeroSlide);
 let heroSlideIndex = 0;
 let heroSlideInitialized = false;
 let heroTransitionId = 0;
 async function showSlide(i) {
+  clearTimeout(heroSlideTimer);
   const slides = [
     {
       title: "CROCANTE.<br>SUCULENTO.<br>IRRESISTÍVEL.",
@@ -569,23 +513,14 @@ async function showSlide(i) {
     });
   }
   heroSlideInitialized = true;
+  scheduleHeroSlide();
 }
-$("#searchInput").addEventListener("input", () => {
-  state.all = true;
-  render();
-});
-$("#clearSearch").onclick = () => {
-  $("#searchInput").value = "";
-  render();
-  $("#searchInput").focus();
-};
 $("#viewAll").onclick = viewMenu;
-$("#filterButton").onclick = openFilters;
 $("#profile").onclick = profile;
 $("#menuButton").onclick = () =>
   panel(
     "De lamber os dedos.",
-    `<div class="menu-brand"><img src="assets/images/logos/kfc.svg" alt="KFC"><span>Feito na hora. Sempre.</span></div><button class="panel-link" onclick="closePanel();home()">${icon("home")} Início ${icon("arrow")}</button><button class="panel-link" onclick="closePanel();viewMenu()">${icon("grid")} Nosso cardápio ${icon("arrow")}</button><button class="panel-link" onclick="closePanel();showOfertas()">${icon("tag")} Ofertas ${icon("arrow")}</button><button class="panel-link" onclick="closePanel();showFavoritos()">${icon("heart")} Favoritos ${icon("arrow")}</button><button class="panel-link" onclick="profile()">${icon("user")} Perfil ${icon("arrow")}</button>`,
+    `<div class="menu-brand"><img src="assets/images/logos/kfc.svg" alt="KFC"><span>Feito na hora. Sempre.</span></div><button class="panel-link" onclick="closePanel();home()">${icon("home")} Início ${icon("arrow")}</button><button class="panel-link" onclick="closePanel();viewMenu()">${icon("grid")} Cardápio ${icon("arrow")}</button><button class="panel-link" onclick="closePanel();showOfertas()">${icon("tag")} Ofertas ${icon("arrow")}</button><button class="panel-link" onclick="closePanel();showFavoritos()">${icon("heart")} Favoritos ${icon("arrow")}</button><button class="panel-link" onclick="profile()">${icon("user")} Perfil ${icon("arrow")}</button>`,
     "menu",
   );
 $("#notifications").onclick = () =>
@@ -599,6 +534,7 @@ let suppressHeroClick = false;
 heroBanner.addEventListener("pointerdown", (e) => {
   if (!e.isPrimary || e.button !== 0 || $("#panel").open) return;
   suppressHeroClick = false;
+  clearTimeout(heroSlideTimer);
   heroDrag = { id: e.pointerId, x: e.clientX, y: e.clientY, horizontal: false };
 });
 heroBanner.addEventListener("pointermove", (e) => {
@@ -606,7 +542,7 @@ heroBanner.addEventListener("pointermove", (e) => {
   const dx = e.clientX - heroDrag.x;
   const dy = e.clientY - heroDrag.y;
   if (!heroDrag.horizontal) {
-    if (Math.abs(dy) > 10 && Math.abs(dy) > Math.abs(dx)) { heroDrag = null; return; }
+    if (Math.abs(dy) > 10 && Math.abs(dy) > Math.abs(dx)) { heroDrag = null; scheduleHeroSlide(); return; }
     if (Math.abs(dx) < 10 || Math.abs(dx) <= Math.abs(dy)) return;
     heroDrag.horizontal = true;
     heroBanner.setPointerCapture(e.pointerId);
@@ -621,6 +557,7 @@ function finishHeroDrag(e) {
   heroBanner.classList.remove("is-dragging");
   if (heroBanner.hasPointerCapture(e.pointerId)) heroBanner.releasePointerCapture(e.pointerId);
   suppressHeroClick = drag.horizontal;
+  scheduleHeroSlide();
   if (e.type === "pointerup" && drag.horizontal && Math.abs(e.clientX - drag.x) >= 40) {
     showSlide((heroSlideIndex + (e.clientX < drag.x ? 1 : 3)) % 4);
   }
