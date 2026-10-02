@@ -11,7 +11,3 @@ Foi muito interessante aprender um pouco mais sobre a **comida americana**, conh
 - [KFC Brasil](https://www.kfc.com.br/)
 - [KFC Menu With Prices September 2026 USA](https://www.kfc.com.br/)
 
-## Como visualizar
-
-[Visualizar o projeto online](https://kfc-copy-mu.vercel.app/)
-
