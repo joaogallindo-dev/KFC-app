@@ -1,0 +1,2759 @@
+{
+  "products": [
+    {
+      "name": "Balde com 8 pedaços",
+      "desc": "2 batatas grandes + 2 molhos + 2 bebidas",
+      "price": 24.99,
+      "rating": "4,8 (12,5 mil+)",
+      "image": "products/buckets/8-pcs-chicken-bucket.webp",
+      "badge": "",
+      "category": "Buckets",
+      "detail": "Oito pedaços de frango dourado, preparados na hora com a receita original. Perfeito para compartilhar.",
+      "allergens": "Trigo, leite e soja"
+    },
+    {
+      "name": "Combo Zinger",
+      "desc": "Zinger + batata + bebida",
+      "price": 8.99,
+      "originalPrice": 9.99,
+      "offer": true,
+      "rating": "4,7 (8,7 mil+)",
+      "image": "products/burgers/zinger-burger-combo.webp",
+      "badge": "",
+      "category": "Burgers",
+      "detail": "Filé de frango crocante, alface fresca e molho cremoso no pão com gergelim. Acompanha batata e bebida.",
+      "allergens": "Trigo, ovo, gergelim e leite"
+    },
+    {
+      "name": "5 pedaços crocantes",
+      "desc": "5 pedaços de frango + batata + bebida",
+      "price": 15.99,
+      "originalPrice": 18.99,
+      "offer": true,
+      "rating": "4,6 (6,3 mil+)",
+      "image": "products/snacks/5-pcs-hot-crispy.webp",
+      "badge": "",
+      "category": "Snacks",
+      "detail": "Cinco pedaços de frango crocante e picante, com batatas douradas e uma bebida gelada.",
+      "allergens": "Trigo, leite e soja"
+    },
+    {
+      "name": "Sundae de chocolate",
+      "desc": "Sorvete de baunilha + calda de chocolate",
+      "price": 3.49,
+      "rating": "4,9 (2,1 mil+)",
+      "image": "products/desserts/chocolate-sundae.webp",
+      "badge": "",
+      "category": "Desserts",
+      "detail": "Sorvete cremoso de baunilha com calda e raspas de chocolate.",
+      "allergens": "Leite e soja"
+    },
+    {
+      "name": "Coca-Cola",
+      "desc": "Coca-Cola · 400 ml",
+      "price": 2.49,
+      "rating": "4,7 (3,2 mil+)",
+      "image": "products/drinks/cola.webp",
+      "badge": "",
+      "category": "Drinks",
+      "detail": "Coca-Cola servida com gelo. Escolha o tamanho que preferir.",
+      "allergens": "Nenhum informado",
+      "sizes": true
+    },
+    {
+      "name": "Coca-Cola Zero",
+      "desc": "Coca-Cola sem açúcar · 400 ml",
+      "price": 2.49,
+      "rating": "4,7 (1,9 mil+)",
+      "image": "products/drinks/cola.webp",
+      "badge": "SEM AÇÚCAR",
+      "category": "Drinks",
+      "detail": "Todo o sabor da cola, sem açúcar. Servida bem gelada, com gelo.",
+      "allergens": "Nenhum informado",
+      "sizes": true
+    },
+    {
+      "name": "Batata frita",
+      "desc": "Batatas douradas e crocantes · Média",
+      "price": 2.99,
+      "rating": "4,8 (5,2 mil+)",
+      "image": "products/sides/golden-fries.webp",
+      "badge": "",
+      "category": "Sides",
+      "detail": "Batatas douradas e crocantes, levemente salgadas e servidas quentinhas.",
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos"
+    },
+    {
+      "name": "Pipoca de frango",
+      "desc": "Frango em pedacinhos + molho especial",
+      "price": 4.39,
+      "originalPrice": 5.49,
+      "offer": true,
+      "rating": "4,8 (2,8 mil+)",
+      "image": "products/snacks/crispy-chicken-bites.webp",
+      "badge": "",
+      "category": "Snacks",
+      "detail": "Pedacinhos de frango crocante com nosso molho cremoso especial.",
+      "allergens": "Trigo, leite e ovo"
+    },
+    {
+      "name": "Combo receita original",
+      "desc": "6 pedaços de frango + batata + bebida",
+      "price": 16.14,
+      "originalPrice": 18.99,
+      "offer": true,
+      "rating": "4,8 (4,4 mil+)",
+      "image": "products/buckets/original-recipe-meal.webp",
+      "badge": "",
+      "category": "Buckets",
+      "detail": "Seis pedaços de frango suculento com a receita original, batatas douradas e uma bebida gelada.",
+      "allergens": "Trigo, leite e soja"
+    },
+    {
+      "name": "Combo burger clássico",
+      "desc": "Burger de frango + batata + bebida",
+      "price": 4.54,
+      "originalPrice": 6.49,
+      "offer": true,
+      "rating": "4,6 (3,4 mil+)",
+      "image": "products/burgers/classic-burger-meal.webp",
+      "badge": "",
+      "category": "Burgers",
+      "detail": "Frango crocante, alface fresca e molho cremoso no pão com gergelim. Acompanha batata e bebida.",
+      "allergens": "Trigo, ovo, gergelim e leite"
+    },
+    {
+      "name": "Dupla de sundaes",
+      "desc": "2 sundaes de chocolate para dividir",
+      "price": 5.99,
+      "originalPrice": 6.98,
+      "offer": true,
+      "rating": "4,9 (1,2 mil+)",
+      "image": "products/desserts/chocolate-sundae.webp",
+      "badge": "",
+      "category": "Desserts",
+      "detail": "Dois sundaes cremosos de chocolate. Uma pausa doce para você e quem você gosta.",
+      "allergens": "Leite e soja",
+      "duo": true
+    },
+    {
+      "name": "Batata com molho",
+      "desc": "Batata grande + molho especial",
+      "price": 3.59,
+      "originalPrice": 4.49,
+      "offer": true,
+      "rating": "4,7 (1,8 mil+)",
+      "image": "products/sides/fries-dip.webp",
+      "badge": "",
+      "category": "Sides",
+      "detail": "Uma porção generosa de batatas douradas com nosso molho especial.",
+      "allergens": "Leite e ovo"
+    },
+    {
+      "name": "Refeição infantil com 2 tiras de frango",
+      "desc": "2 tiras de frango · refeição infantil",
+      "detail": "2 tiras de frango · refeição infantil",
+      "price": 5.19,
+      "category": "Snacks",
+      "image": "products/snacks/2-pc-tenders-kids-meal.webp",
+      "badge": "",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos"
+    },
+    {
+      "name": "Balde sem osso individual",
+      "desc": "Frango sem osso, batata e bebida",
+      "detail": "Frango sem osso, batata e bebida",
+      "price": 12.99,
+      "category": "Buckets",
+      "image": "products/buckets/boneless-bucket-for-one.webp",
+      "badge": "COMBO",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos",
+      "badgeTone": "yellow"
+    },
+    {
+      "name": "Big Box com 5 tiras de frango",
+      "desc": "5 tiras de frango · refeição Big Box",
+      "detail": "5 tiras de frango · refeição Big Box",
+      "price": 13.19,
+      "category": "Snacks",
+      "image": "products/snacks/5-pc-tenders-big-box-meal.webp",
+      "badge": "COMBO",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos",
+      "badgeTone": "yellow"
+    },
+    {
+      "name": "Combo Supergirl com tiras de frango",
+      "desc": "Tiras de frango · edição Supergirl",
+      "detail": "Tiras de frango · edição Supergirl",
+      "price": 13.49,
+      "category": "Snacks",
+      "image": "products/snacks/supergirl-tenders-ultimate-meal.webp",
+      "badge": "NOVO",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos"
+    },
+    {
+      "name": "Combo de asinhas e batatas rústicas",
+      "desc": "Asinhas, batatas rústicas e bebida",
+      "detail": "Asinhas, batatas rústicas e bebida",
+      "price": 12.99,
+      "category": "Snacks",
+      "image": "products/snacks/wings-wedges-combo.webp",
+      "badge": "COMBO",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos",
+      "badgeTone": "yellow"
+    },
+    {
+      "name": "Combo Supergirl com nuggets",
+      "desc": "Nuggets · edição Supergirl",
+      "detail": "Nuggets · edição Supergirl",
+      "price": 10.49,
+      "category": "Snacks",
+      "image": "products/snacks/supergirl-nuggets-combo-meal.webp",
+      "badge": "NOVO",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos"
+    },
+    {
+      "name": "Big Box de pipoca de frango",
+      "desc": "Pipoca de frango · refeição Big Box",
+      "detail": "Pipoca de frango · refeição Big Box",
+      "price": 10.99,
+      "category": "Snacks",
+      "image": "products/snacks/popcorn-chicken-big-box.webp",
+      "badge": "",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos"
+    },
+    {
+      "name": "Kryptonian Kooler da Supergirl",
+      "desc": "Bebida gelada · edição Supergirl",
+      "detail": "Bebida gelada · edição Supergirl",
+      "price": 4.89,
+      "category": "Drinks",
+      "image": "products/drinks/supergirl-s-kryptonian-kooler.webp",
+      "badge": "NOVO",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos"
+    },
+    {
+      "name": "Pepsi com cranberry",
+      "desc": "Pepsi com cranberry · escolha o tamanho",
+      "detail": "Pepsi com cranberry · escolha o tamanho",
+      "price": 2.99,
+      "category": "Drinks",
+      "image": "products/drinks/cranberry-pepsi.webp",
+      "badge": "",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos",
+      "sizes": true,
+      "largePrice": 3.39,
+      "regularLabel": "Tamanho padrão",
+      "largeLabel": "Grande"
+    },
+    {
+      "name": "Chá gelado adoçado",
+      "desc": "Chá gelado adoçado · escolha o tamanho",
+      "detail": "Chá gelado adoçado · escolha o tamanho",
+      "price": 2.99,
+      "category": "Drinks",
+      "image": "products/drinks/sweet-tea.webp",
+      "badge": "",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos",
+      "sizes": true,
+      "largePrice": 3.39,
+      "regularLabel": "Tamanho padrão",
+      "largeLabel": "Grande"
+    },
+    {
+      "name": "Aquafina",
+      "desc": "Água mineral engarrafada",
+      "detail": "Água mineral engarrafada",
+      "price": 2.69,
+      "category": "Drinks",
+      "image": "products/drinks/aquafina.webp",
+      "badge": "",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos"
+    },
+    {
+      "name": "Starry com cranberry",
+      "desc": "Starry com cranberry · escolha o tamanho",
+      "detail": "Starry com cranberry · escolha o tamanho",
+      "price": 2.99,
+      "category": "Drinks",
+      "image": "products/drinks/cranberry-starry.webp",
+      "badge": "",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos",
+      "sizes": true,
+      "largePrice": 3.39,
+      "regularLabel": "Tamanho padrão",
+      "largeLabel": "Grande"
+    },
+    {
+      "name": "MTN DEW",
+      "desc": "Refrigerante MTN DEW · escolha o tamanho",
+      "detail": "Refrigerante MTN DEW · escolha o tamanho",
+      "price": 2.99,
+      "category": "Drinks",
+      "image": "products/drinks/mtn-dew.webp",
+      "badge": "",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos",
+      "sizes": true,
+      "largePrice": 3.39,
+      "regularLabel": "Tamanho padrão",
+      "largeLabel": "Grande"
+    },
+    {
+      "name": "Starry",
+      "desc": "Refrigerante de limão · escolha o tamanho",
+      "detail": "Refrigerante de limão · escolha o tamanho",
+      "price": 2.99,
+      "category": "Drinks",
+      "image": "products/drinks/starry.webp",
+      "badge": "",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos",
+      "sizes": true,
+      "largePrice": 3.39,
+      "regularLabel": "Tamanho padrão",
+      "largeLabel": "Grande"
+    },
+    {
+      "name": "MTN DEW Sweet Lightning",
+      "desc": "MTN DEW Sweet Lightning · escolha o tamanho",
+      "detail": "MTN DEW Sweet Lightning · escolha o tamanho",
+      "price": 2.99,
+      "category": "Drinks",
+      "image": "products/drinks/mtn-dew-sweet-lightning.webp",
+      "badge": "",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos",
+      "sizes": true,
+      "largePrice": 3.39,
+      "regularLabel": "Tamanho padrão",
+      "largeLabel": "Grande"
+    },
+    {
+      "name": "MTN DEW Sweet Lightning com cranberry",
+      "desc": "Sweet Lightning com cranberry",
+      "detail": "Sweet Lightning com cranberry",
+      "price": 2.99,
+      "category": "Drinks",
+      "image": "products/drinks/cranberry-mtn-dew-sweet-lightning.webp",
+      "badge": "",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos",
+      "sizes": true,
+      "largePrice": 3.39,
+      "regularLabel": "Tamanho padrão",
+      "largeLabel": "Grande"
+    },
+    {
+      "name": "Pepsi sem açúcar",
+      "desc": "Pepsi sem açúcar · escolha o tamanho",
+      "detail": "Pepsi sem açúcar · escolha o tamanho",
+      "price": 2.99,
+      "category": "Drinks",
+      "image": "products/drinks/pepsi-zero-sugar.webp",
+      "badge": "SEM AÇÚCAR",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos",
+      "sizes": true,
+      "largePrice": 3.39,
+      "regularLabel": "Tamanho padrão",
+      "largeLabel": "Grande"
+    },
+    {
+      "name": "Chá gelado adoçado com cranberry",
+      "desc": "Chá gelado adoçado com cranberry",
+      "detail": "Chá gelado adoçado com cranberry",
+      "price": 2.99,
+      "category": "Drinks",
+      "image": "products/drinks/cranberry-sweet-tea.webp",
+      "badge": "",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos",
+      "sizes": true,
+      "largePrice": 3.39,
+      "regularLabel": "Tamanho padrão",
+      "largeLabel": "Grande"
+    },
+    {
+      "name": "Limonada",
+      "desc": "Limonada gelada · escolha o tamanho",
+      "detail": "Limonada gelada · escolha o tamanho",
+      "price": 2.99,
+      "category": "Drinks",
+      "image": "products/drinks/lemonade.webp",
+      "badge": "",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos",
+      "sizes": true,
+      "largePrice": 3.39,
+      "regularLabel": "Tamanho padrão",
+      "largeLabel": "Grande"
+    },
+    {
+      "name": "5 bolinhos de purê de batata",
+      "desc": "5 bolinhos de purê de batata",
+      "detail": "5 bolinhos de purê de batata",
+      "price": 3,
+      "category": "Sides",
+      "image": "products/sides/5-pc-mashed-potato-poppers.webp",
+      "badge": "",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos"
+    },
+    {
+      "name": "Combo Nashville Hot com 3 tiras de frango",
+      "desc": "3 tiras de frango picante · combo",
+      "detail": "3 tiras de frango picante · combo",
+      "price": 9.69,
+      "category": "Snacks",
+      "image": "products/snacks/3-pc-nashville-hot-tenders-combo.webp",
+      "badge": "",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos"
+    },
+    {
+      "name": "Big Box de sanduíche picante e nuggets",
+      "desc": "Sanduíche picante e nuggets · Big Box",
+      "detail": "Sanduíche picante e nuggets · Big Box",
+      "price": 11.19,
+      "category": "Burgers",
+      "image": "products/burgers/spicy-chicken-sandwich-nuggets-big-box-meal.webp",
+      "badge": "COMBO",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos",
+      "badgeTone": "yellow"
+    },
+    {
+      "name": "Batatas rústicas",
+      "desc": "Batatas rústicas temperadas",
+      "detail": "Batatas rústicas temperadas",
+      "price": 3.89,
+      "category": "Sides",
+      "image": "products/sides/potato-wedges.webp",
+      "badge": "",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos"
+    },
+    {
+      "name": "Refeição com 16 tiras de frango",
+      "desc": "16 tiras de frango · refeição para compartilhar",
+      "detail": "16 tiras de frango · refeição para compartilhar",
+      "price": 47.99,
+      "category": "Buckets",
+      "image": "products/buckets/16-pc-tenders-meal.webp",
+      "badge": "",
+      "rating": "",
+      "realProduct": true,
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos"
+    },
+    {
+      "name": "Sundae de morango",
+      "desc": "Sorvete de baunilha com calda e pedaços de morango",
+      "detail": "Sorvete de baunilha com calda e pedaços de morango",
+      "price": 3.49,
+      "rating": "",
+      "image": "products/desserts/strawberry-sundae.webp",
+      "badge": "",
+      "category": "Desserts",
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos"
+    },
+    {
+      "name": "Sundae de Nutella",
+      "desc": "Sorvete de baunilha com Nutella e pedaços de avelã",
+      "detail": "Sorvete de baunilha com Nutella e pedaços de avelã",
+      "price": 3.14,
+      "rating": "",
+      "image": "products/desserts/nutella-sundae.webp",
+      "badge": "",
+      "category": "Desserts",
+      "allergens": "Verifique o preparo e a possibilidade de contato com alérgenos",
+      "originalPrice": 3.49,
+      "offer": true
+    }
+  ],
+  "translations": {
+    "ptToEn": [
+      [
+        "Big Box de pipoca de frango",
+        "Popcorn Chicken Big Box"
+      ],
+      [
+        "Refeição com 16 tiras de frango",
+        "16 pc. Tenders Meal"
+      ],
+      [
+        "Batatas rústicas",
+        "Potato Wedges"
+      ],
+      [
+        "Big Box de sanduíche picante e nuggets",
+        "Spicy Chicken Sandwich + Nuggets Big Box Meal"
+      ],
+      [
+        "Combo Nashville Hot com 3 tiras de frango",
+        "3 pc. Nashville Hot Tenders Combo"
+      ],
+      [
+        "Limonada",
+        "Lemonade"
+      ],
+      [
+        "Pepsi sem açúcar",
+        "Pepsi Zero Sugar"
+      ],
+      [
+        "MTN DEW Sweet Lightning com cranberry",
+        "Cranberry MTN DEW Sweet Lightning"
+      ],
+      [
+        "Starry com cranberry",
+        "Cranberry Starry"
+      ],
+      [
+        "Chá gelado adoçado",
+        "Sweet Tea"
+      ],
+      [
+        "Pepsi com cranberry",
+        "Cranberry Pepsi"
+      ],
+      [
+        "Kryptonian Kooler da Supergirl",
+        "Supergirl’s Kryptonian Kooler"
+      ],
+      [
+        "Combo Supergirl com nuggets",
+        "Supergirl Nuggets Combo Meal"
+      ],
+      [
+        "Combo de asinhas e batatas rústicas",
+        "Wings & Wedges Combo"
+      ],
+      [
+        "Combo Supergirl com tiras de frango",
+        "Supergirl Tenders Ultimate Meal"
+      ],
+      [
+        "Big Box com 5 tiras de frango",
+        "5 pc. Tenders Big Box Meal"
+      ],
+      [
+        "Balde sem osso individual",
+        "Boneless Bucket For One"
+      ],
+      [
+        "Refeição infantil com 2 tiras de frango",
+        "2 pc. Tenders Kids Meal"
+      ],
+      [
+        "COMBO",
+        "COMBO"
+      ],
+      [
+        "Pedido adicionado ao carrinho",
+        "Item added to cart"
+      ],
+      [
+        "Visitante",
+        "Guest"
+      ],
+      [
+        "Preço anterior",
+        "Previous price"
+      ],
+      [
+        "NOVO",
+        "NEW"
+      ],
+      [
+        "Tamanho padrão",
+        "Standard size"
+      ],
+      [
+        "2 tiras de frango · refeição infantil",
+        "2 chicken tenders · kids meal"
+      ],
+      [
+        "Frango sem osso, batata e bebida",
+        "Boneless chicken, fries and a drink"
+      ],
+      [
+        "5 tiras de frango · refeição Big Box",
+        "5 chicken tenders · Big Box meal"
+      ],
+      [
+        "Tiras de frango · edição Supergirl",
+        "Chicken tenders · Supergirl edition"
+      ],
+      [
+        "Asinhas, batatas rústicas e bebida",
+        "Chicken wings, potato wedges and a drink"
+      ],
+      [
+        "Nuggets · edição Supergirl",
+        "Chicken nuggets · Supergirl edition"
+      ],
+      [
+        "Pipoca de frango · refeição Big Box",
+        "Popcorn chicken · Big Box meal"
+      ],
+      [
+        "Bebida gelada · edição Supergirl",
+        "Chilled drink · Supergirl edition"
+      ],
+      [
+        "Pepsi com cranberry · escolha o tamanho",
+        "Cranberry Pepsi · choose your size"
+      ],
+      [
+        "Chá gelado adoçado · escolha o tamanho",
+        "Sweet iced tea · choose your size"
+      ],
+      [
+        "Água mineral engarrafada",
+        "Bottled water"
+      ],
+      [
+        "Starry com cranberry · escolha o tamanho",
+        "Cranberry Starry · choose your size"
+      ],
+      [
+        "Refrigerante MTN DEW · escolha o tamanho",
+        "MTN DEW soda · choose your size"
+      ],
+      [
+        "Refrigerante de limão · escolha o tamanho",
+        "Lemon-lime soda · choose your size"
+      ],
+      [
+        "MTN DEW Sweet Lightning · escolha o tamanho",
+        "MTN DEW Sweet Lightning · choose your size"
+      ],
+      [
+        "Sweet Lightning com cranberry",
+        "Sweet Lightning with cranberry"
+      ],
+      [
+        "Pepsi sem açúcar · escolha o tamanho",
+        "Zero sugar Pepsi · choose your size"
+      ],
+      [
+        "Chá gelado adoçado com cranberry",
+        "Cranberry Sweet Tea"
+      ],
+      [
+        "Limonada gelada · escolha o tamanho",
+        "Chilled lemonade · choose your size"
+      ],
+      [
+        "5 bolinhos de purê de batata",
+        "5 pc. Mashed Potato Poppers"
+      ],
+      [
+        "3 tiras de frango picante · combo",
+        "3 spicy chicken tenders · combo"
+      ],
+      [
+        "Sanduíche picante e nuggets · Big Box",
+        "Spicy chicken sandwich and nuggets · Big Box"
+      ],
+      [
+        "Batatas rústicas temperadas",
+        "Seasoned potato wedges"
+      ],
+      [
+        "16 tiras de frango · refeição para compartilhar",
+        "16 chicken tenders · sharing meal"
+      ],
+      [
+        "Sundae de morango",
+        "Strawberry Sundae"
+      ],
+      [
+        "Sorvete de baunilha com calda e pedaços de morango",
+        "Vanilla soft serve with strawberry sauce and strawberry pieces"
+      ],
+      [
+        "Sundae de Nutella",
+        "Nutella Sundae"
+      ],
+      [
+        "Sorvete de baunilha com Nutella e pedaços de avelã",
+        "Vanilla soft serve with Nutella and chopped hazelnuts"
+      ],
+      [
+        "Oito pedaços de frango dourado, preparados na hora com a receita original. Perfeito para compartilhar.",
+        "Eight pieces of signature golden chicken, freshly prepared with the original recipe. Made for sharing."
+      ],
+      [
+        "Filé de frango crocante, alface fresca e molho cremoso no pão com gergelim. Acompanha batata e bebida.",
+        "A crispy chicken fillet, fresh lettuce and creamy sauce in a toasted sesame bun. Served with fries and a drink."
+      ],
+      [
+        "Seis pedaços de frango suculento com a receita original, batatas douradas e uma bebida gelada.",
+        "Six pieces of juicy original recipe chicken, served with golden fries and a cold drink."
+      ],
+      [
+        "Frango crocante, alface fresca e molho cremoso no pão com gergelim. Acompanha batata e bebida.",
+        "A golden chicken fillet, fresh lettuce and creamy sauce in a sesame bun, served with fries and a drink."
+      ],
+      [
+        "As informações do cardápio são ilustrativas; confirme os ingredientes com o restaurante.",
+        "Menu information is illustrative; confirm ingredients with the restaurant."
+      ],
+      [
+        "Cinco pedaços de frango crocante e picante, com batatas douradas e uma bebida gelada.",
+        "Five pieces of crunchy, spicy chicken with golden fries and an ice-cold drink."
+      ],
+      [
+        "Dois sundaes cremosos de chocolate. Uma pausa doce para você e quem você gosta.",
+        "Two creamy chocolate sundaes. A sweet finish for you and someone you love."
+      ],
+      [
+        "Finalização demonstrativa. Nenhum pedido real ou pagamento será enviado.",
+        "Demo checkout. No real order or payment is submitted."
+      ],
+      [
+        "Batatas douradas e crocantes, levemente salgadas e servidas quentinhas.",
+        "Classic golden fries, lightly salted and served hot."
+      ],
+      [
+        "Coca-Cola servida com gelo. Escolha o tamanho que preferir.",
+        "Refreshing cola, poured over ice. Choose your preferred size."
+      ],
+      [
+        "Consultar os produtos disponíveis neste cardápio ilustrativo do KFC.",
+        "Read the products available in this illustrative KFC menu."
+      ],
+      [
+        "Uma porção generosa de batatas douradas com nosso molho especial.",
+        "A generous portion of golden fries with signature dipping sauce."
+      ],
+      [
+        "Sua sacola está vazia. Que tal escolher algo de lamber os dedos?",
+        "Your bag is empty. Add a little finger lickin’ goodness."
+      ],
+      [
+        "Todo o sabor da cola, sem açúcar. Servida bem gelada, com gelo.",
+        "The refreshing cola taste, without the sugar. Served chilled over ice."
+      ],
+      [
+        "Pedacinhos de frango crocante com nosso molho cremoso especial.",
+        "Bite-size crispy chicken pieces with a creamy signature dip."
+      ],
+      [
+        "Verifique o preparo e a possibilidade de contato com alérgenos",
+        "Check preparation for cross-contact"
+      ],
+      [
+        "Sorvete cremoso de baunilha com calda e raspas de chocolate.",
+        "Creamy vanilla soft serve finished with rich chocolate sauce and chocolate shavings."
+      ],
+      [
+        "Combo KFC com burger crocante, batata e refrigerante",
+        "KFC combo with crispy burger, fries and cola"
+      ],
+      [
+        "Balde KFC com frango crocante, batata e refrigerante",
+        "KFC bucket with crispy chicken, fries and cola"
+      ],
+      [
+        "Nosso sundae de chocolate está esperando por você.",
+        "Our chocolate sundae is waiting for you."
+      ],
+      [
+        "Suas preferências ficam salvas neste dispositivo.",
+        "Your preferences are saved on this device."
+      ],
+      [
+        "Ative o JavaScript para usar a busca e a sacola.",
+        "Enable JavaScript to use search and your bag."
+      ],
+      [
+        "Confira as ofertas dos seus combos favoritos.",
+        "Explore offers on your favorite combos."
+      ],
+      [
+        "Frango crocante, preparado na hora. Sempre.",
+        "Crispy chicken, made fresh. Always."
+      ],
+      [
+        "KFC10 aplicado. Aproveite 10% de desconto!",
+        "KFC10 applied. Enjoy 10% off!"
+      ],
+      [
+        "2 batatas grandes + 2 molhos + 2 bebidas",
+        "2 Large Fries + 2 Dips + 2 Drinks"
+      ],
+      [
+        "Sorvete de baunilha + calda de chocolate",
+        "Vanilla soft serve + chocolate sauce"
+      ],
+      [
+        "Use KFC10 para ganhar 10% de desconto.",
+        "Try KFC10 for 10% off your bag."
+      ],
+      [
+        "Tente outra busca ou limpe os filtros.",
+        "Try another search or reset your filters."
+      ],
+      [
+        "5 pedaços de frango + batata + bebida",
+        "5 Pcs Chicken + Fries + Drink"
+      ],
+      [
+        "Frango em pedacinhos + molho especial",
+        "Bite-size chicken + signature dip"
+      ],
+      [
+        "6 pedaços de frango + batata + bebida",
+        "6 Chicken Pieces + Fries + Drink"
+      ],
+      [
+        "Oferta exclusiva: até 30% de desconto",
+        "Exclusive offer: up to 30% off"
+      ],
+      [
+        "Batatas douradas e crocantes · Média",
+        "Crispy, golden fries · Regular"
+      ],
+      [
+        "Escreva uma observação para o pedido",
+        "Add a note to your order"
+      ],
+      [
+        "2 sundaes de chocolate para dividir",
+        "2 chocolate sundaes to share"
+      ],
+      [
+        "Quer acrescentar alguma observação?",
+        "Anything we should know?"
+      ],
+      [
+        "Burger de frango + batata + bebida",
+        "Chicken Burger + Fries + Drink"
+      ],
+      [
+        "Tudo pronto para dar água na boca.",
+        "Looking finger lickin’ good."
+      ],
+      [
+        "Seu próximo favorito está aqui.",
+        "Good food is waiting."
+      ],
+      [
+        "Um pequeno mimo, muita alegria.",
+        "A little treat, a lot of joy."
+      ],
+      [
+        "Batata grande + molho especial",
+        "Large golden fries + signature dip"
+      ],
+      [
+        "Deixe espaço para a sobremesa.",
+        "Save room for something sweet."
+      ],
+      [
+        "Coca-Cola · 400 ml",
+        "Ice-cold cola · 400 ml"
+      ],
+      [
+        "Cupom de desconto · use KFC10",
+        "Promo code · try KFC10"
+      ],
+      [
+        "Busque seu frango favorito...",
+        "Search for your favorite chicken..."
+      ],
+      [
+        "Trigo, ovo, gergelim e leite",
+        "Wheat, egg, sesame, milk"
+      ],
+      [
+        "Conheça seu Zinger favorito.",
+        "Meet your favorite Zinger."
+      ],
+      [
+        "Novidades saindo da cozinha",
+        "Fresh from the kitchen"
+      ],
+      [
+        "Um pouco mais de felicidade",
+        "A little extra happiness"
+      ],
+      [
+        "Nenhum resultado por aqui.",
+        "No matches just yet."
+      ],
+      [
+        "Sempre cabe uma sobremesa.",
+        "Always room for dessert."
+      ],
+      [
+        "Nos seus combos favoritos.",
+        "On your favorite combos."
+      ],
+      [
+        "Como podemos chamar você?",
+        "What should we call you?"
+      ],
+      [
+        "Crocância a cada mordida.",
+        "Crunch in every bite."
+      ],
+      [
+        "15% de desconto no combo.",
+        "Save 15% on this combo."
+      ],
+      [
+        "Zinger + batata + bebida",
+        "Zinger Burger + Fries + Drink"
+      ],
+      [
+        "Coca-Cola sem açúcar · 400 ml",
+        "Zero sugar cola · 400 ml"
+      ],
+      [
+        "Ingredientes e alérgenos",
+        "Ingredients & allergens"
+      ],
+      [
+        "Adicionar uma unidade de",
+        "Add one"
+      ],
+      [
+        "Seu favorito de sempre.",
+        "Your original favorite."
+      ],
+      [
+        "Combo receita original",
+        "Original Recipe Meal"
+      ],
+      [
+        "Somente meus favoritos",
+        "Only my favorites"
+      ],
+      [
+        "Feito na hora. Sempre.",
+        "Made fresh. Always."
+      ],
+      [
+        "Categorias de produtos",
+        "Product categories"
+      ],
+      [
+        "Uma explosão de sabor.",
+        "An explosion of flavor."
+      ],
+      [
+        "Remover uma unidade de",
+        "Remove one"
+      ],
+      [
+        "Combo burger clássico",
+        "Classic Burger Meal"
+      ],
+      [
+        "Ver todos os produtos",
+        "Explore all products"
+      ],
+      [
+        "Continuar no cardápio",
+        "Keep exploring the menu"
+      ],
+      [
+        "Quantidade do produto",
+        "Product quantity"
+      ],
+      [
+        "Encontre seu favorito",
+        "Find your favorite"
+      ],
+      [
+        "Mais sabor por menos.",
+        "A little more for a little less."
+      ],
+      [
+        "Promoção de sobremesa",
+        "Dessert promotion"
+      ],
+      [
+        "É de lamber os dedos.",
+        "It's finger lickin’ good."
+      ],
+      [
+        "Olá, fã de frango! 👋",
+        "Hello, Chicken Lover! 👋"
+      ],
+      [
+        "400 ml · Tradicional",
+        "400 ml · Regular"
+      ],
+      [
+        "Coca-Cola",
+        "Cola"
+      ],
+      [
+        "Balde com 8 pedaços",
+        "8 Pcs Chicken Bucket"
+      ],
+      [
+        "5 pedaços crocantes",
+        "5 Pcs Hot & Crispy"
+      ],
+      [
+        "Sundae de chocolate",
+        "Chocolate Sundae"
+      ],
+      [
+        "Trigo, leite e soja",
+        "Wheat, milk, soy"
+      ],
+      [
+        "Resultados da busca",
+        "Search Results"
+      ],
+      [
+        "Explorar o cardápio",
+        "Explore the menu"
+      ],
+      [
+        "Diminuir quantidade",
+        "Decrease quantity"
+      ],
+      [
+        "Aumentar quantidade",
+        "Increase quantity"
+      ],
+      [
+        "De lamber os dedos.",
+        "Finger lickin’ good."
+      ],
+      [
+        "Navegação principal",
+        "Main navigation"
+      ],
+      [
+        "COMPLETE SEU PEDIDO",
+        "MAKE IT A MEAL"
+      ],
+      [
+        "itens na sua sacola",
+        "items in your bag"
+      ],
+      [
+        "Trigo, leite e ovo",
+        "Wheat, milk, egg"
+      ],
+      [
+        "Adicionar à sacola",
+        "Add to bag"
+      ],
+      [
+        "Promoção de frango",
+        "Chicken promotion"
+      ],
+      [
+        "Promoção de burger",
+        "Burger promotion"
+      ],
+      [
+        "POR TEMPO LIMITADO",
+        "LIMITED TIME"
+      ],
+      [
+        "Frango de verdade.",
+        "100% Real Chicken."
+      ],
+      [
+        "Ir para o cardápio",
+        "Skip to menu"
+      ],
+      [
+        "PARA COMPARTILHAR",
+        "SHARE THE GOOD"
+      ],
+      [
+        "Ofertas especiais",
+        "Special Offers"
+      ],
+      [
+        "Cupom de desconto",
+        "Promo code"
+      ],
+      [
+        "Revise seu pedido",
+        "Review your order"
+      ],
+      [
+        "Escolha o tamanho",
+        "Choose your size"
+      ],
+      [
+        "Seu espaço no KFC",
+        "Your corner of KFC"
+      ],
+      [
+        "Sacola de compras",
+        "Shopping bag"
+      ],
+      [
+        "Promoção crocante",
+        "Crispy promotion"
+      ],
+      [
+        "Coca-Cola Zero",
+        "Cola Zero"
+      ],
+      [
+        "opções deliciosas",
+        "delicious choices"
+      ],
+      [
+        "Pipoca de frango",
+        "Crispy Chicken Bites"
+      ],
+      [
+        "Dupla de sundaes",
+        "Sundae Duo"
+      ],
+      [
+        "Batata com molho",
+        "Fries & Dip"
+      ],
+      [
+        "Nenhum informado",
+        "None listed"
+      ],
+      [
+        "RECEITA ORIGINAL",
+        "ORIGINAL RECIPE"
+      ],
+      [
+        "Combos populares",
+        "Popular Combos"
+      ],
+      [
+        "Melhor avaliação",
+        "Top rated"
+      ],
+      [
+        "Filtrar produtos",
+        "Filter products"
+      ],
+      [
+        "OFERTA EXCLUSIVA",
+        "EXCLUSIVE OFFER"
+      ],
+      [
+        "600 ml · Grande",
+        "600 ml · Large"
+      ],
+      [
+        "Voltar à sacola",
+        "Back to your bag"
+      ],
+      [
+        "Buscar produtos",
+        "Search products"
+      ],
+      [
+        "30% de desconto",
+        "30% OFF"
+      ],
+      [
+        "Acompanhamentos",
+        "Sides"
+      ],
+      [
+        "opção deliciosa",
+        "delicious choice"
+      ],
+      [
+        "itens na sacola",
+        "items in bag"
+      ],
+      [
+        "Total do pedido",
+        "Your total"
+      ],
+      [
+        "Revisar pedido",
+        "Review order"
+      ],
+      [
+        "Ver resultados",
+        "Show results"
+      ],
+      [
+        "Limpar filtros",
+        "Reset filters"
+      ],
+      [
+        "Seus favoritos",
+        "Your Favorites"
+      ],
+      [
+        "Nosso cardápio",
+        "Our Menu"
+      ],
+      [
+        "PARA BELISCAR",
+        "SNACK TIME"
+      ],
+      [
+        "FEITO NA HORA",
+        "FRESHLY MADE"
+      ],
+      [
+        "Cupom · KFC10",
+        "Promo · KFC10"
+      ],
+      [
+        "Salvar perfil",
+        "Save profile"
+      ],
+      [
+        "IRRESISTÍVEL.",
+        "IRRESISTIBLE."
+      ],
+      [
+        "Combo Zinger",
+        "Zinger Burger Combo"
+      ],
+      [
+        "Batata frita",
+        "Golden Fries"
+      ],
+      [
+        "Leite e soja",
+        "Milk, soy"
+      ],
+      [
+        "MAIS VENDIDO",
+        "BESTSELLER"
+      ],
+      [
+        "Recomendados",
+        "Recommended"
+      ],
+      [
+        "Preço máximo",
+        "Maximum price"
+      ],
+      [
+        "Notificações",
+        "Notifications"
+      ],
+      [
+        "Limpar busca",
+        "Clear search"
+      ],
+      [
+        "fã de frango",
+        "Chicken Lover"
+      ],
+      [
+        "MUITO SABOR.",
+        "BIG FLAVOR."
+      ],
+      [
+        "Leite e ovo",
+        "Milk, egg"
+      ],
+      [
+        "Ordenar por",
+        "Sort by"
+      ],
+      [
+        "Menor preço",
+        "Price: low to high"
+      ],
+      [
+        "Maior preço",
+        "Price: high to low"
+      ],
+      [
+        "Pedir agora",
+        "Order Now"
+      ],
+      [
+        "IMPERDÍVEL.",
+        "IRRESISTIBLE."
+      ],
+      [
+        "Ver ofertas",
+        "View offers"
+      ],
+      [
+        "DE DESCONTO",
+        "OFF"
+      ],
+      [
+        "Tradicional",
+        "Regular"
+      ],
+      [
+        "Detalhes de",
+        "Details for"
+      ],
+      [
+        "QUERIDINHO",
+        "SWEET FAVORITE"
+      ],
+      [
+        "BEM GELADO",
+        "ICE COLD"
+      ],
+      [
+        "SEM AÇÚCAR",
+        "ZERO SUGAR"
+      ],
+      [
+        "Quantidade",
+        "Quantity"
+      ],
+      [
+        "Sua sacola",
+        "Your Bag"
+      ],
+      [
+        "Abrir menu",
+        "Open menu"
+      ],
+      [
+        "Meu pedido",
+        "My order"
+      ],
+      [
+        "KFC início",
+        "KFC home"
+      ],
+      [
+        "SUCULENTO.",
+        "JUICY."
+      ],
+      [
+        "Sobremesas",
+        "Desserts"
+      ],
+      [
+        "Ver todos",
+        "Explore all"
+      ],
+      [
+        "Favoritos",
+        "Favorites"
+      ],
+      [
+        "CROCANTE.",
+        "CRISPY."
+      ],
+      [
+        "A MORDIDA",
+        "THE PERFECT"
+      ],
+      [
+        "PERFEITA.",
+        "BITE."
+      ],
+      [
+        "INCRÍVEL.",
+        "INCREDIBLE."
+      ],
+      [
+        "Favoritar",
+        "Favorite"
+      ],
+      [
+        "Adicionar",
+        "Add"
+      ],
+      [
+        "CLÁSSICO",
+        "CLASSIC"
+      ],
+      [
+        "Retirada",
+        "Pickup"
+      ],
+      [
+        "PICANTE.",
+        "SPICY."
+      ],
+      [
+        "CREMOSO.",
+        "CREAMY."
+      ],
+      [
+        "gergelim",
+        "sesame"
+      ],
+      [
+        "POPULAR",
+        "POPULAR"
+      ],
+      [
+        "15% OFF",
+        "SAVE 15%"
+      ],
+      [
+        "Entrega",
+        "Delivery"
+      ],
+      [
+        "Aplicar",
+        "Apply"
+      ],
+      [
+        "Ofertas",
+        "Offers"
+      ],
+      [
+        "Pedidos",
+        "Orders"
+      ],
+      [
+        "Lanches",
+        "Snacks"
+      ],
+      [
+        "Bebidas",
+        "Drinks"
+      ],
+      [
+        "Fechar",
+        "Close"
+      ],
+      [
+        "Perfil",
+        "Profile"
+      ],
+      [
+        "Início",
+        "Home"
+      ],
+      [
+        "Baldes",
+        "Buckets"
+      ],
+      [
+        "Grande",
+        "Large"
+      ],
+      [
+        "DOCE.",
+        "SWEET."
+      ],
+      [
+        "itens",
+        "items"
+      ],
+      [
+        "Trigo",
+        "Wheat"
+      ],
+      [
+        "leite",
+        "milk"
+      ],
+      [
+        "Leite",
+        "Milk"
+      ],
+      [
+        "Tudo",
+        "All"
+      ],
+      [
+        "Olá,",
+        "Hello,"
+      ],
+      [
+        "mil+",
+        "K+"
+      ],
+      [
+        "soja",
+        "soy"
+      ],
+      [
+        "Até",
+        "Up to"
+      ],
+      [
+        "ovo",
+        "egg"
+      ],
+      [
+        " e ",
+        " and "
+      ]
+    ],
+    "enToEs": [
+      [
+        "A crispy chicken fillet, fresh lettuce and creamy sauce in a toasted sesame bun. Served with fries and a drink.",
+        "Filete de pollo crujiente, lechuga fresca y salsa cremosa en pan de sésamo. Con papas y bebida."
+      ],
+      [
+        "A golden chicken fillet, fresh lettuce and creamy sauce in a sesame bun, served with fries and a drink.",
+        "Filete de pollo dorado, lechuga fresca y salsa cremosa en pan de sésamo. Con papas y bebida."
+      ],
+      [
+        "Eight pieces of signature golden chicken, freshly prepared with the original recipe. Made for sharing.",
+        "Ocho piezas de pollo dorado, preparadas al momento con la receta original. Perfectas para compartir."
+      ],
+      [
+        "Six pieces of juicy original recipe chicken, served with golden fries and a cold drink.",
+        "Seis piezas de pollo jugoso de la receta original, con papas doradas y una bebida fría."
+      ],
+      [
+        "Creamy vanilla soft serve finished with rich chocolate sauce and chocolate shavings.",
+        "Helado cremoso de vainilla con salsa y virutas de chocolate."
+      ],
+      [
+        "Five pieces of crunchy, spicy chicken with golden fries and an ice-cold drink.",
+        "Cinco piezas de pollo crujiente y picante, con papas doradas y una bebida fría."
+      ],
+      [
+        "Two creamy chocolate sundaes. A sweet finish for you and someone you love.",
+        "Dos sundaes cremosos de chocolate. Un momento dulce para compartir."
+      ],
+      [
+        "Menu information is illustrative; confirm ingredients with the restaurant.",
+        "La información del menú es ilustrativa; confirma los ingredientes con el restaurante."
+      ],
+      [
+        "The refreshing cola taste, without the sugar. Served chilled over ice.",
+        "Todo el sabor de la cola, sin azúcar. Servida bien fría con hielo."
+      ],
+      [
+        "A generous portion of golden fries with signature dipping sauce.",
+        "Una porción generosa de papas doradas con nuestra salsa especial."
+      ],
+      [
+        "Vanilla soft serve with strawberry sauce and strawberry pieces",
+        "Helado de vainilla con salsa y trocitos de fresa"
+      ],
+      [
+        "Refreshing cola, poured over ice. Choose your preferred size.",
+        "Refresco de cola con hielo. Elige el tamaño que prefieras."
+      ],
+      [
+        "Bite-size crispy chicken pieces with a creamy signature dip.",
+        "Bocaditos de pollo crujiente con nuestra salsa cremosa especial."
+      ],
+      [
+        "Your bag is empty. Add a little finger lickin’ goodness.",
+        "Tu bolsa está vacía. ¡Elige algo para chuparte los dedos!"
+      ],
+      [
+        "Vanilla soft serve with Nutella and chopped hazelnuts",
+        "Helado de vainilla con Nutella y avellanas picadas"
+      ],
+      [
+        "Demo checkout. No real order or payment is submitted.",
+        "Finalización de demostración. No se enviarán pedidos ni pagos reales."
+      ],
+      [
+        "Classic golden fries, lightly salted and served hot.",
+        "Papas doradas y crujientes, ligeramente saladas y servidas calientes."
+      ],
+      [
+        "KFC bucket with crispy chicken, fries and cola",
+        "Bucket KFC con pollo crujiente, papas y cola"
+      ],
+      [
+        "Enable JavaScript to use search and your bag.",
+        "Activa JavaScript para usar la búsqueda y la bolsa."
+      ],
+      [
+        "Spicy chicken sandwich and nuggets · Big Box",
+        "Sándwich picante y nuggets · Big Box"
+      ],
+      [
+        "KFC combo with crispy burger, fries and cola",
+        "Combo KFC con burger crujiente, papas y cola"
+      ],
+      [
+        "MTN DEW Sweet Lightning · choose your size",
+        "MTN DEW Sweet Lightning · elige el tamaño"
+      ],
+      [
+        "Your preferences are saved on this device.",
+        "Tus preferencias se guardan en este dispositivo."
+      ],
+      [
+        "Try another search or reset your filters.",
+        "Prueba otra búsqueda o restablece los filtros."
+      ],
+      [
+        "Chicken wings, potato wedges and a drink",
+        "Alitas, papas gajo y bebida"
+      ],
+      [
+        "Our chocolate sundae is waiting for you.",
+        "Nuestro sundae de chocolate te espera."
+      ],
+      [
+        "Explore offers on your favorite combos.",
+        "Descubre las ofertas de tus combos favoritos."
+      ],
+      [
+        "Vanilla soft serve + chocolate sauce",
+        "Helado de vainilla + salsa de chocolate"
+      ],
+      [
+        "Boneless chicken, fries and a drink",
+        "Pollo sin hueso, papas y bebida"
+      ],
+      [
+        "Chicken tenders · Supergirl edition",
+        "Tiras de pollo · edición Supergirl"
+      ],
+      [
+        "Chicken nuggets · Supergirl edition",
+        "Nuggets de pollo · edición Supergirl"
+      ],
+      [
+        "Cranberry Starry · choose your size",
+        "Starry con arándano · elige el tamaño"
+      ],
+      [
+        "Zero sugar Pepsi · choose your size",
+        "Pepsi sin azúcar · elige el tamaño"
+      ],
+      [
+        "Chilled lemonade · choose your size",
+        "Limonada fría · elige el tamaño"
+      ],
+      [
+        "Check preparation for cross-contact",
+        "Consulta la preparación y el posible contacto con alérgenos"
+      ],
+      [
+        "Crispy chicken, made fresh. Always.",
+        "Pollo crujiente, preparado al momento. Siempre."
+      ],
+      [
+        "Search for your favorite chicken...",
+        "Busca tu pollo favorito..."
+      ],
+      [
+        "Cranberry Pepsi · choose your size",
+        "Pepsi con arándano · elige el tamaño"
+      ],
+      [
+        "Lemon-lime soda · choose your size",
+        "Refresco de lima-limón · elige el tamaño"
+      ],
+      [
+        "Large golden fries + signature dip",
+        "Papas grandes + salsa especial"
+      ],
+      [
+        "Chilled drink · Supergirl edition",
+        "Bebida fría · edición Supergirl"
+      ],
+      [
+        "Sweet iced tea · choose your size",
+        "Té helado dulce · elige el tamaño"
+      ],
+      [
+        "16 chicken tenders · sharing meal",
+        "16 tiras de pollo · menú para compartir"
+      ],
+      [
+        "2 Large Fries + 2 Dips + 2 Drinks",
+        "2 papas grandes + 2 salsas + 2 bebidas"
+      ],
+      [
+        "Bite-size chicken + signature dip",
+        "Bocaditos de pollo + salsa especial"
+      ],
+      [
+        "5 chicken tenders · Big Box meal",
+        "5 tiras de pollo · menú Big Box"
+      ],
+      [
+        "6 Chicken Pieces + Fries + Drink",
+        "6 piezas de pollo + papas + bebida"
+      ],
+      [
+        "A little more for a little less.",
+        "Más sabor por menos."
+      ],
+      [
+        "MTN DEW soda · choose your size",
+        "Refresco MTN DEW · elige el tamaño"
+      ],
+      [
+        "3 spicy chicken tenders · combo",
+        "3 tiras de pollo picante · combo"
+      ],
+      [
+        "Try KFC10 for 10% off your bag.",
+        "Usa KFC10 para obtener un 10% de descuento."
+      ],
+      [
+        "Popcorn chicken · Big Box meal",
+        "Bocaditos de pollo · menú Big Box"
+      ],
+      [
+        "Sweet Lightning with cranberry",
+        "Sweet Lightning con arándano"
+      ],
+      [
+        "Crispy, golden fries · Regular",
+        "Papas doradas y crujientes · Medianas"
+      ],
+      [
+        "Chicken Burger + Fries + Drink",
+        "Burger de pollo + papas + bebida"
+      ],
+      [
+        "Save room for something sweet.",
+        "Deja espacio para el postre."
+      ],
+      [
+        "Exclusive offer: up to 30% off",
+        "Oferta exclusiva: hasta un 30% de descuento"
+      ],
+      [
+        "2 chicken tenders · kids meal",
+        "2 tiras de pollo · menú infantil"
+      ],
+      [
+        "Sweet iced tea with cranberry",
+        "Té helado dulce con arándano"
+      ],
+      [
+        "Zinger Burger + Fries + Drink",
+        "Zinger + papas + bebida"
+      ],
+      [
+        "5 Pcs Chicken + Fries + Drink",
+        "5 piezas de pollo + papas + bebida"
+      ],
+      [
+        "KFC10 applied. Enjoy 10% off!",
+        "KFC10 aplicado. ¡Disfruta de un 10% de descuento!"
+      ],
+      [
+        "A little treat, a lot of joy.",
+        "Un pequeño capricho, mucha alegría."
+      ],
+      [
+        "2 chocolate sundaes to share",
+        "2 sundaes de chocolate para compartir"
+      ],
+      [
+        "Looking finger lickin’ good.",
+        "Todo listo para abrir el apetito."
+      ],
+      [
+        "Meet your favorite Zinger.",
+        "Conoce tu Zinger favorito."
+      ],
+      [
+        "It's finger lickin’ good.",
+        "Para chuparse los dedos."
+      ],
+      [
+        "It's finger lickin' good.",
+        "Para chuparse los dedos."
+      ],
+      [
+        "Zero sugar cola · 400 ml",
+        "Cola sin azúcar · 400 ml"
+      ],
+      [
+        "Wheat, egg, sesame, milk",
+        "Trigo, huevo, sésamo y leche"
+      ],
+      [
+        "Anything we should know?",
+        "¿Quieres añadir alguna observación?"
+      ],
+      [
+        "Add a note to your order",
+        "Escribe una nota para tu pedido"
+      ],
+      [
+        "What should we call you?",
+        "¿Cómo podemos llamarte?"
+      ],
+      [
+        "Always room for dessert.",
+        "Siempre hay espacio para el postre."
+      ],
+      [
+        "On your favorite combos.",
+        "En tus combos favoritos."
+      ],
+      [
+        "A little extra happiness",
+        "Un poco más de felicidad"
+      ],
+      [
+        "Keep exploring the menu",
+        "Seguir en el menú"
+      ],
+      [
+        "Ingredients & allergens",
+        "Ingredientes y alérgenos"
+      ],
+      [
+        "Your original favorite.",
+        "Tu favorito de siempre."
+      ],
+      [
+        "An explosion of flavor.",
+        "Una explosión de sabor."
+      ],
+      [
+        "Save 15% on this combo.",
+        "Ahorra un 15% en este combo."
+      ],
+      [
+        "A little more happiness",
+        "Un poco más de felicidad"
+      ],
+      [
+        "Seasoned potato wedges",
+        "Papas gajo sazonadas"
+      ],
+      [
+        "Ice-cold cola · 400 ml",
+        "Refresco de cola · 400 ml"
+      ],
+      [
+        "Promo code · try KFC10",
+        "Cupón · prueba KFC10"
+      ],
+      [
+        "Fresh from the kitchen",
+        "Novedades de la cocina"
+      ],
+      [
+        "5 mashed potato bites",
+        "5 bocaditos de puré de papa"
+      ],
+      [
+        "Good food is waiting.",
+        "Tu próximo favorito te espera."
+      ],
+      [
+        "Crunch in every bite.",
+        "Crujiente en cada bocado."
+      ],
+      [
+        "8 Pcs Chicken Bucket",
+        "Bucket de 8 piezas"
+      ],
+      [
+        "Crispy Chicken Bites",
+        "Bocaditos de pollo"
+      ],
+      [
+        "Original Recipe Meal",
+        "Combo Receta Original"
+      ],
+      [
+        "Explore all products",
+        "Ver todos los productos"
+      ],
+      [
+        "Finger lickin’ good.",
+        "Para chuparse los dedos."
+      ],
+      [
+        "No matches just yet.",
+        "No hay resultados todavía."
+      ],
+      [
+        "Zinger Burger Combo",
+        "Combo Zinger"
+      ],
+      [
+        "Classic Burger Meal",
+        "Combo burger clásico"
+      ],
+      [
+        "Made fresh. Always.",
+        "Preparado al momento. Siempre."
+      ],
+      [
+        "Item added to cart",
+        "Producto añadido al carrito"
+      ],
+      [
+        "5 Pcs Hot & Crispy",
+        "5 piezas crujientes"
+      ],
+      [
+        "Find your favorite",
+        "Encuentra tu favorito"
+      ],
+      [
+        "Price: low to high",
+        "Menor precio"
+      ],
+      [
+        "Price: high to low",
+        "Mayor precio"
+      ],
+      [
+        "Your corner of KFC",
+        "Tu espacio en KFC"
+      ],
+      [
+        "Product categories",
+        "Categorías de productos"
+      ],
+      [
+        "100% Real Chicken.",
+        "100% pollo de verdad."
+      ],
+      [
+        "Strawberry Sundae",
+        "Sundae de fresa"
+      ],
+      [
+        "Review your order",
+        "Revisa tu pedido"
+      ],
+      [
+        "Decrease quantity",
+        "Reducir cantidad"
+      ],
+      [
+        "Increase quantity",
+        "Aumentar cantidad"
+      ],
+      [
+        "Only my favorites",
+        "Solo mis favoritos"
+      ],
+      [
+        "Chicken promotion",
+        "Promoción de pollo"
+      ],
+      [
+        "Dessert promotion",
+        "Promoción de postre"
+      ],
+      [
+        "delicious choices",
+        "opciones deliciosas"
+      ],
+      [
+        "items in your bag",
+        "artículos en tu bolsa"
+      ],
+      [
+        "Chocolate Sundae",
+        "Sundae de chocolate"
+      ],
+      [
+        "Wheat, milk, soy",
+        "Trigo, leche y soja"
+      ],
+      [
+        "Wheat, milk, egg",
+        "Trigo, leche y huevo"
+      ],
+      [
+        "Back to your bag",
+        "Volver a tu bolsa"
+      ],
+      [
+        "Choose your size",
+        "Elige el tamaño"
+      ],
+      [
+        "Product quantity",
+        "Cantidad del producto"
+      ],
+      [
+        "Burger promotion",
+        "Promoción de burger"
+      ],
+      [
+        "Crispy promotion",
+        "Promoción crujiente"
+      ],
+      [
+        "delicious choice",
+        "opción deliciosa"
+      ],
+      [
+        "ORIGINAL RECIPE",
+        "RECETA ORIGINAL"
+      ],
+      [
+        "Search products",
+        "Buscar productos"
+      ],
+      [
+        "Filter products",
+        "Filtrar productos"
+      ],
+      [
+        "Main navigation",
+        "Navegación principal"
+      ],
+      [
+        "EXCLUSIVE OFFER",
+        "OFERTA EXCLUSIVA"
+      ],
+      [
+        "Nutella Sundae",
+        "Sundae de Nutella"
+      ],
+      [
+        "Previous price",
+        "Precio anterior"
+      ],
+      [
+        "SWEET FAVORITE",
+        "FAVORITO DULCE"
+      ],
+      [
+        "SHARE THE GOOD",
+        "PARA COMPARTIR"
+      ],
+      [
+        "Your Favorites",
+        "Tus favoritos"
+      ],
+      [
+        "Your favorites",
+        "Tus favoritos"
+      ],
+      [
+        "Special Offers",
+        "Ofertas especiales"
+      ],
+      [
+        "Search Results",
+        "Resultados de búsqueda"
+      ],
+      [
+        "Popular Combos",
+        "Combos populares"
+      ],
+      [
+        "MAKE IT A MEAL",
+        "COMPLETA TU PEDIDO"
+      ],
+      [
+        "Standard size",
+        "Tamaño estándar"
+      ],
+      [
+        "Bottled water",
+        "Agua embotellada"
+      ],
+      [
+        "Promo · KFC10",
+        "Cupón · KFC10"
+      ],
+      [
+        "Maximum price",
+        "Precio máximo"
+      ],
+      [
+        "Reset filters",
+        "Restablecer filtros"
+      ],
+      [
+        "Notifications",
+        "Notificaciones"
+      ],
+      [
+        "Chicken Lover",
+        "amante del pollo"
+      ],
+      [
+        "IRRESISTIBLE.",
+        "IRRESISTIBLE."
+      ],
+      [
+        "Golden Fries",
+        "Papas fritas"
+      ],
+      [
+        "FRESHLY MADE",
+        "RECIÉN HECHO"
+      ],
+      [
+        "Review order",
+        "Revisar pedido"
+      ],
+      [
+        "Show results",
+        "Ver resultados"
+      ],
+      [
+        "Save profile",
+        "Guardar perfil"
+      ],
+      [
+        "Shopping bag",
+        "Bolsa de compras"
+      ],
+      [
+        "Clear search",
+        "Limpiar búsqueda"
+      ],
+      [
+        "LIMITED TIME",
+        "POR TIEMPO LIMITADO"
+      ],
+      [
+        "Skip to menu",
+        "Ir al menú"
+      ],
+      [
+        "items in bag",
+        "artículos en la bolsa"
+      ],
+      [
+        "Fries & Dip",
+        "Papas con salsa"
+      ],
+      [
+        "None listed",
+        "Ninguno indicado"
+      ],
+      [
+        "Explore all",
+        "Ver todos"
+      ],
+      [
+        "Recommended",
+        "Recomendados"
+      ],
+      [
+        "BIG FLAVOR.",
+        "MUCHO SABOR."
+      ],
+      [
+        "THE PERFECT",
+        "EL BOCADO"
+      ],
+      [
+        "INCREDIBLE.",
+        "INCREÍBLE."
+      ],
+      [
+        "View offers",
+        "Ver ofertas"
+      ],
+      [
+        "Details for",
+        "Detalles de"
+      ],
+      [
+        "Sundae Duo",
+        "Dúo de sundaes"
+      ],
+      [
+        "BESTSELLER",
+        "MÁS VENDIDO"
+      ],
+      [
+        "ZERO SUGAR",
+        "SIN AZÚCAR"
+      ],
+      [
+        "SNACK TIME",
+        "PARA PICAR"
+      ],
+      [
+        "Promo code",
+        "Cupón de descuento"
+      ],
+      [
+        "Your total",
+        "Total del pedido"
+      ],
+      [
+        "Add to bag",
+        "Añadir a la bolsa"
+      ],
+      [
+        "Remove one",
+        "Quitar una unidad de"
+      ],
+      [
+        "Cola Zero",
+        "Coca-Cola sin azúcar"
+      ],
+      [
+        "Milk, soy",
+        "Leche y soja"
+      ],
+      [
+        "Milk, egg",
+        "Leche y huevo"
+      ],
+      [
+        "Top rated",
+        "Mejor valoración"
+      ],
+      [
+        "Open menu",
+        "Abrir menú"
+      ],
+      [
+        "Order Now",
+        "Pedir ahora"
+      ],
+      [
+        "Favorites",
+        "Favoritos"
+      ],
+      [
+        "SAVE 15%",
+        "AHORRA 15%"
+      ],
+      [
+        "ICE COLD",
+        "BIEN FRÍO"
+      ],
+      [
+        "Our Menu",
+        "Nuestro menú"
+      ],
+      [
+        "Our menu",
+        "Nuestro menú"
+      ],
+      [
+        "View All",
+        "Ver todos"
+      ],
+      [
+        "Your Bag",
+        "Tu bolsa"
+      ],
+      [
+        "Your bag",
+        "Tu bolsa"
+      ],
+      [
+        "Delivery",
+        "Entrega"
+      ],
+      [
+        "Quantity",
+        "Cantidad"
+      ],
+      [
+        "My order",
+        "Mi pedido"
+      ],
+      [
+        "KFC home",
+        "KFC inicio"
+      ],
+      [
+        "Desserts",
+        "Postres"
+      ],
+      [
+        "Favorite",
+        "Guardar favorito"
+      ],
+      [
+        "Subtotal",
+        "Subtotal"
+      ],
+      [
+        "POPULAR",
+        "POPULAR"
+      ],
+      [
+        "CLASSIC",
+        "CLÁSICO"
+      ],
+      [
+        "Regular",
+        "Mediano"
+      ],
+      [
+        "Sort by",
+        "Ordenar por"
+      ],
+      [
+        "Profile",
+        "Perfil"
+      ],
+      [
+        "CRISPY.",
+        "CRUJIENTE."
+      ],
+      [
+        "CREAMY.",
+        "CREMOSO."
+      ],
+      [
+        "30% OFF",
+        "30% DE DESCUENTO"
+      ],
+      [
+        "Buckets",
+        "Buckets"
+      ],
+      [
+        "Burgers",
+        "Burgers"
+      ],
+      [
+        "Add one",
+        "Añadir una unidad de"
+      ],
+      [
+        "Pickup",
+        "Recoger"
+      ],
+      [
+        "Hello,",
+        "Hola,"
+      ],
+      [
+        "Offers",
+        "Ofertas"
+      ],
+      [
+        "Orders",
+        "Pedidos"
+      ],
+      [
+        "JUICY.",
+        "JUGOSO."
+      ],
+      [
+        "SPICY.",
+        "PICANTE."
+      ],
+      [
+        "SWEET.",
+        "DULCE."
+      ],
+      [
+        "Snacks",
+        "Snacks"
+      ],
+      [
+        "Drinks",
+        "Bebidas"
+      ],
+      [
+        "COMBO",
+        "COMBO"
+      ],
+      [
+        "Guest",
+        "Visitante"
+      ],
+      [
+        "Large",
+        "Grande"
+      ],
+      [
+        "Apply",
+        "Aplicar"
+      ],
+      [
+        "Close",
+        "Cerrar"
+      ],
+      [
+        "BITE.",
+        "PERFECTO."
+      ],
+      [
+        "Up to",
+        "Hasta"
+      ],
+      [
+        "Sides",
+        "Acompañamientos"
+      ],
+      [
+        "items",
+        "artículos"
+      ],
+      [
+        "Total",
+        "Total"
+      ],
+      [
+        "Home",
+        "Inicio"
+      ],
+      [
+        "Menu",
+        "Menú"
+      ],
+      [
+        "NEW",
+        "NUEVO"
+      ],
+      [
+        "OFF",
+        "DE DESCUENTO"
+      ],
+      [
+        "All",
+        "Todo"
+      ],
+      [
+        "Add",
+        "Añadir"
+      ],
+      [
+        "Cola",
+        "Coca-Cola"
+      ],
+      [
+        "2 pc. Tenders Kids Meal",
+        "Menú infantil con 2 tiras de pollo"
+      ],
+      [
+        "Boneless Bucket For One",
+        "Bucket sin hueso individual"
+      ],
+      [
+        "5 pc. Tenders Big Box Meal",
+        "Big Box con 5 tiras de pollo"
+      ],
+      [
+        "Supergirl Tenders Ultimate Meal",
+        "Combo Supergirl con tiras de pollo"
+      ],
+      [
+        "Wings & Wedges Combo",
+        "Combo de alitas y papas gajo"
+      ],
+      [
+        "Supergirl Nuggets Combo Meal",
+        "Combo Supergirl con nuggets"
+      ],
+      [
+        "Popcorn Chicken Big Box",
+        "Big Box de bocaditos de pollo"
+      ],
+      [
+        "Supergirl’s Kryptonian Kooler",
+        "Kryptonian Kooler de Supergirl"
+      ],
+      [
+        "Cranberry Pepsi",
+        "Pepsi con arándano"
+      ],
+      [
+        "Sweet Tea",
+        "Té helado dulce"
+      ],
+      [
+        "Cranberry Starry",
+        "Starry con arándano"
+      ],
+      [
+        "Cranberry MTN DEW Sweet Lightning",
+        "MTN DEW Sweet Lightning con arándano"
+      ],
+      [
+        "Pepsi Zero Sugar",
+        "Pepsi sin azúcar"
+      ],
+      [
+        "Cranberry Sweet Tea",
+        "Té helado dulce con arándano"
+      ],
+      [
+        "Lemonade",
+        "Limonada"
+      ],
+      [
+        "5 pc. Mashed Potato Poppers",
+        "5 bocaditos de puré de papa"
+      ],
+      [
+        "3 pc. Nashville Hot Tenders Combo",
+        "Combo Nashville Hot con 3 tiras de pollo"
+      ],
+      [
+        "Spicy Chicken Sandwich + Nuggets Big Box Meal",
+        "Big Box de sándwich picante y nuggets"
+      ],
+      [
+        "Potato Wedges",
+        "Papas gajo"
+      ],
+      [
+        "16 pc. Tenders Meal",
+        "Menú con 16 tiras de pollo"
+      ]
+    ]
+  },
+  "schemaVersion": 1,
+  "settings": {
+    "defaultLanguage": "en",
+    "languages": [
+      "en",
+      "pt",
+      "es"
+    ],
+    "currency": "USD"
+  },
+  "imageManifest": [
+    {
+      "product": "2 pc. Tenders Kids Meal",
+      "category": "Snacks",
+      "image": "products/snacks/2-pc-tenders-kids-meal.webp",
+      "transparent": true,
+      "bytes": 60752,
+      "assetPath": "assets/images/products/snacks/2-pc-tenders-kids-meal.webp"
+    },
+    {
+      "product": "Boneless Bucket For One",
+      "category": "Buckets",
+      "image": "products/buckets/boneless-bucket-for-one.webp",
+      "transparent": true,
+      "bytes": 54864,
+      "assetPath": "assets/images/products/buckets/boneless-bucket-for-one.webp"
+    },
+    {
+      "product": "5 pc. Tenders Big Box Meal",
+      "category": "Snacks",
+      "image": "products/snacks/5-pc-tenders-big-box-meal.webp",
+      "transparent": true,
+      "bytes": 65936,
+      "assetPath": "assets/images/products/snacks/5-pc-tenders-big-box-meal.webp"
+    },
+    {
+      "product": "Supergirl Tenders Ultimate Meal",
+      "category": "Snacks",
+      "image": "products/snacks/supergirl-tenders-ultimate-meal.webp",
+      "transparent": true,
+      "bytes": 70856,
+      "assetPath": "assets/images/products/snacks/supergirl-tenders-ultimate-meal.webp"
+    },
+    {
+      "product": "Wings & Wedges Combo",
+      "category": "Snacks",
+      "image": "products/snacks/wings-wedges-combo.webp",
+      "transparent": true,
+      "bytes": 72270,
+      "assetPath": "assets/images/products/snacks/wings-wedges-combo.webp"
+    },
+    {
+      "product": "Supergirl Nuggets Combo Meal",
+      "category": "Snacks",
+      "image": "products/snacks/supergirl-nuggets-combo-meal.webp",
+      "transparent": true,
+      "bytes": 78602,
+      "assetPath": "assets/images/products/snacks/supergirl-nuggets-combo-meal.webp"
+    },
+    {
+      "product": "Popcorn Chicken Big Box",
+      "category": "Snacks",
+      "image": "products/snacks/popcorn-chicken-big-box.webp",
+      "transparent": true,
+      "bytes": 109600,
+      "assetPath": "assets/images/products/snacks/popcorn-chicken-big-box.webp"
+    },
+    {
+      "product": "Supergirl’s Kryptonian Kooler",
+      "category": "Drinks",
+      "image": "products/drinks/supergirl-s-kryptonian-kooler.webp",
+      "transparent": true,
+      "bytes": 12362,
+      "assetPath": "assets/images/products/drinks/supergirl-s-kryptonian-kooler.webp"
+    },
+    {
+      "product": "Cranberry Pepsi",
+      "category": "Drinks",
+      "image": "products/drinks/cranberry-pepsi.webp",
+      "transparent": true,
+      "bytes": 35136,
+      "assetPath": "assets/images/products/drinks/cranberry-pepsi.webp"
+    },
+    {
+      "product": "Sweet Tea",
+      "category": "Drinks",
+      "image": "products/drinks/sweet-tea.webp",
+      "transparent": true,
+      "bytes": 25766,
+      "assetPath": "assets/images/products/drinks/sweet-tea.webp"
+    },
+    {
+      "product": "Aquafina",
+      "category": "Drinks",
+      "image": "products/drinks/aquafina.webp",
+      "transparent": true,
+      "bytes": 25246,
+      "assetPath": "assets/images/products/drinks/aquafina.webp"
+    },
+    {
+      "product": "Cranberry Starry",
+      "category": "Drinks",
+      "image": "products/drinks/cranberry-starry.webp",
+      "transparent": true,
+      "bytes": 32364,
+      "assetPath": "assets/images/products/drinks/cranberry-starry.webp"
+    },
+    {
+      "product": "MTN DEW",
+      "category": "Drinks",
+      "image": "products/drinks/mtn-dew.webp",
+      "transparent": true,
+      "bytes": 22794,
+      "assetPath": "assets/images/products/drinks/mtn-dew.webp"
+    },
+    {
+      "product": "Starry",
+      "category": "Drinks",
+      "image": "products/drinks/starry.webp",
+      "transparent": true,
+      "bytes": 35012,
+      "assetPath": "assets/images/products/drinks/starry.webp"
+    },
+    {
+      "product": "MTN DEW Sweet Lightning",
+      "category": "Drinks",
+      "image": "products/drinks/mtn-dew-sweet-lightning.webp",
+      "transparent": true,
+      "bytes": 24684,
+      "assetPath": "assets/images/products/drinks/mtn-dew-sweet-lightning.webp"
+    },
+    {
+      "product": "Cranberry MTN DEW Sweet Lightning",
+      "category": "Drinks",
+      "image": "products/drinks/cranberry-mtn-dew-sweet-lightning.webp",
+      "transparent": true,
+      "bytes": 30928,
+      "assetPath": "assets/images/products/drinks/cranberry-mtn-dew-sweet-lightning.webp"
+    },
+    {
+      "product": "Pepsi Zero Sugar",
+      "category": "Drinks",
+      "image": "products/drinks/pepsi-zero-sugar.webp",
+      "transparent": true,
+      "bytes": 38774,
+      "assetPath": "assets/images/products/drinks/pepsi-zero-sugar.webp"
+    },
+    {
+      "product": "Cranberry Sweet Tea",
+      "category": "Drinks",
+      "image": "products/drinks/cranberry-sweet-tea.webp",
+      "transparent": true,
+      "bytes": 28698,
+      "assetPath": "assets/images/products/drinks/cranberry-sweet-tea.webp"
+    },
+    {
+      "product": "Lemonade",
+      "category": "Drinks",
+      "image": "products/drinks/lemonade.webp",
+      "transparent": true,
+      "bytes": 13206,
+      "assetPath": "assets/images/products/drinks/lemonade.webp"
+    },
+    {
+      "product": "5 pc. Mashed Potato Poppers",
+      "category": "Sides",
+      "image": "products/sides/5-pc-mashed-potato-poppers.webp",
+      "transparent": true,
+      "bytes": 26900,
+      "assetPath": "assets/images/products/sides/5-pc-mashed-potato-poppers.webp"
+    },
+    {
+      "product": "3 pc. Nashville Hot Tenders Combo",
+      "category": "Snacks",
+      "image": "products/snacks/3-pc-nashville-hot-tenders-combo.webp",
+      "transparent": true,
+      "bytes": 61390,
+      "assetPath": "assets/images/products/snacks/3-pc-nashville-hot-tenders-combo.webp"
+    },
+    {
+      "product": "Spicy Chicken Sandwich + Nuggets Big Box Meal",
+      "category": "Burgers",
+      "image": "products/burgers/spicy-chicken-sandwich-nuggets-big-box-meal.webp",
+      "transparent": true,
+      "bytes": 38656,
+      "assetPath": "assets/images/products/burgers/spicy-chicken-sandwich-nuggets-big-box-meal.webp"
+    },
+    {
+      "product": "Potato Wedges",
+      "category": "Sides",
+      "image": "products/sides/potato-wedges.webp",
+      "transparent": true,
+      "bytes": 41142,
+      "assetPath": "assets/images/products/sides/potato-wedges.webp"
+    },
+    {
+      "product": "16 pc. Tenders Meal",
+      "category": "Buckets",
+      "image": "products/buckets/16-pc-tenders-meal.webp",
+      "transparent": true,
+      "bytes": 63090,
+      "assetPath": "assets/images/products/buckets/16-pc-tenders-meal.webp"
+    },
+    {
+      "product": "Sundae de morango",
+      "category": "Desserts",
+      "image": "products/desserts/strawberry-sundae.webp",
+      "transparent": true,
+      "bytes": 137498,
+      "assetPath": "assets/images/products/desserts/strawberry-sundae.webp"
+    },
+    {
+      "product": "Sundae de Nutella",
+      "category": "Desserts",
+      "image": "products/desserts/nutella-sundae.webp",
+      "transparent": true,
+      "bytes": 147194,
+      "assetPath": "assets/images/products/desserts/nutella-sundae.webp"
+    }
+  ]
+}
