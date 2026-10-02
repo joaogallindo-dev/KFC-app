@@ -6,9 +6,10 @@ A proposta foi desenvolver uma experiência inspirada no KFC, com um cardápio v
 
 Foi muito interessante aprender um pouco mais sobre a **comida americana**, conhecer diferentes produtos e perceber como a apresentação de um cardápio pode influenciar a experiência do cliente. O projeto uniu esse interesse à oportunidade de experimentar, revisar e melhorar minhas decisões de design.
 
-## Referência
+## Referências
 
-- [Site oficial do KFC Brasil — referência da marca e do footer](https://www.kfc.com.br/)
+- [KFC Brasil](https://www.kfc.com.br/)
+- [KFC Menu With Prices September 2026 USA](https://www.kfc.com.br/)
 
 ## Como visualizar
 
