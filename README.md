@@ -13,5 +13,5 @@ Foi muito interessante aprender um pouco mais sobre a **comida americana**, conh
 
 ## Como visualizar
 
-[🚀 Visualizar o projeto online](https://kfc-copy-mu.vercel.app/)
+[Visualizar o projeto online](https://kfc-copy-mu.vercel.app/)
 
