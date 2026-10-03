@@ -1,4 +1,4 @@
-# 🍗 KFC copy 
+# 🍗 KFC app 
 
 Criei este projeto para aprender e colocar em prática conceitos de **UI/UX Design** e **Customer Experience (CX)**, explorando como o design de uma interface pode tornar a experiência de quem navega mais simples, agradável e intuitiva.
 
